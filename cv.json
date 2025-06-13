@@ -182,33 +182,49 @@
   "references": [],
   "projects": [
     {
-      "name": "E-commerce",
+      "name": "FinazApp",
       "isActive": false,
-      "description": "Simple pero poderosa. Desarrollo de una aplicación web para gestión de productos y usuarios utilizando .NET Core y Next.js.",
+      "description": "Finazapp es una aplicación de gestión de finanzas personales que ayuda a los usuarios a gestionar sus ingresos y gastos mediante el análisis de hábitos de consumo. La aplicación ayudará a las personas a gestionar su dinero, mostrando ingresos y gastos mensuales.",
       "highlights": [
-        "Next.js",
-        "Tailwind CSS",
+        "Vite",
         "TypeScript",
+        "Cypress",
         ".NET CORE",
         "JWT",
+        "Cookies",
         "Swagger",
+        "Postman",
         "SQL Server"
       ],
-      "url": ""
+      "url": "https://github.com/FinazApp/finazapp"
     },
     {
       "name": "Tesla Landing",
       "isActive": false,
       "description": "Desarrollo de una copia de la popular compañia Tesla. Está creada con: Astro, Tailwind y JS, sencillas pero poderosas herramientas. Posee navegación interactiva, efectos visuales dinámicos y componentes reutilizables.",
       "highlights": ["Astro", "Tailwind", "JS"],
-      "url": ""
+      "url": "https://github.com/SmillRivera14/tesla-landing"
     },
     {
       "name": "Spotify Clone",
-      "isActive": false,
+      "isActive": true,
       "description": "Podemos ver un reproductor de música en la web orientado hacer rápido, flexible, de utilidad para escuchar playlsit y una muestra del poder multiparadigma de astro.",
       "highlights": ["Astro", "React", "Tailwind"],
-      "url": "#"
+      "url": "https://github.com/SmillRivera14/spotify-clone"
+    },
+    {
+      "name": "E-commerce",
+      "isActive": true,
+      "description": "Simple pero poderosa. Desarrollo de una aplicación web para gestión de productos y usuarios utilizando .NET Core y React",
+      "highlights": [
+        "React",
+        "Tailwind CSS",
+        ".NET CORE",
+        "JWT",
+        "Swagger",
+        "SQL Server"
+      ],
+      "url": "https://github.com/SmillRivera14/sistema-comercial/"
     }
   ]
 }
