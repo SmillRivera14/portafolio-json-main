@@ -1,48 +1,28 @@
-# Astro Starter Kit: Basics
+# 👋 ¡Hola! Soy Smill Rivera
 
-```sh
-npm create astro@latest -- --template basics
-```
+Soy técnico en informática con una sólida formación en desarrollo de software y una fuerte pasión por la tecnología. Me gusta aprender, crear y buscar soluciones útiles a través del código.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Durante mi formación y proyectos personales, he trabajado con tecnologías modernas como Astro, React, .NET y SQL, enfocándome en la creación de aplicaiones/webs limpias, rápidas y mantenibles. Disfruto estructurar mis proyectos de forma clara y reutilizable, como este por ejemplo.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Me enfoco en mejorar mis habilidades en desarrollo web y backend, combinando lo aprendido en mis estudios técnicos con la práctica constante en proyectos reales y disfruto construyendo soluciones como este portafolio donde organizo mi trabajo de forma clara, dinámica y profesional.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+# Portafolio JSON
 
-## 🚀 Project Structure
+Este es un portafolio personal desarrollado con [Astro](https://astro.build/), que consume datos desde archivos `.json` para generar contenido dinámico de manera sencilla y eficiente.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🧠 Características
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Diseño limpio y minimalista.
+- Uso de Astro para generar sitios estáticos rápidos.
+- Datos de proyectos y perfiles sociales extraídos desde archivos JSON.
+- Modular y fácil de extender.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🚀 Tecnologías utilizadas
 
-## 🧞 Commands
+- [Astro](https://astro.build/)
+- [JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+- [HTML](https://developer.mozilla.org/es/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS)
 
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Mención especial
+Basado en el diseño de [Bartosz Jarocki](https://github.com/BartoszJarocki/cv) y [midudev](https://github.com/midudev/minimalist-portfolio-json?tab=readme-ov-file#🔑-licencia)
