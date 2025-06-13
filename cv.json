@@ -1,0 +1,214 @@
+{
+  "basics": {
+    "name": "Smill Emmanuel Rivera Diaz",
+    "label": "Full Stack Developer",
+    "image": "public/Smill.webp",
+    "email": "smillriveradiaz14@gmail.com",
+    "phone": "+1 809 943 4455",
+    "url": "https://github.com/SmillRivera14",
+    "summary": "Actualmente egresado del Instituto Tecnológico de las Américas (ITLA), siguiendo mis estudios logré edificarme como un desarrollador de software con habilidades tanto FrontEnd como Backend. Disfruto del trabajo en equipo y desarrollar soluciones de alta calidad.",
+    "location": {
+      "address": "",
+      "postalCode": "91000",
+      "city": "Santo Domingo",
+      "countryCode": "DO",
+      "region": "República Dominicana"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Smill Rivera",
+        "url": "https://www.linkedin.com/in/smill-rivera-diaz/"
+      },
+      {
+        "network": "GitHub",
+        "username": "SmillRivera14",
+        "url": "https://github.com/SmillRivera14"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Banco Múltiple BHD",
+      "position": "Pasante",
+      "url": "https://www.linkedin.com/in/smill-rivera-diaz/overlay/1735423405903/single-media-viewer/?profileId=ACoAAD0aWdsBOtMgGNKB80BjeX_1ohIil5wSDF4",
+      "startDate": "2024-09",
+      "endDate": "2024-12",
+      "summary": "Participé en una pasantía de 3 meses donde estudié y aprendí las metodologías de desarrollo de mi equipo de trabajo. Logré una integración clara y sin contratiempos en la plataforma Pega Platform y participé en el estudio del flujo del ambiente de tarjeta de crédito bajo la supervisión de Rubert Tapia y Pazzis Paulino.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico de las Américas",
+      "url": "https://itla.edu.do/",
+      "area": "Tecnólogo en Desarrollo de Software",
+      "studyType": "",
+      "startDate": "01-01-2022",
+      "endDate": "08-24-2024",
+      "score": "3.5"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Foundational C# with Microsoft",
+      "date": "2023",
+      "issuer": "Microsoft, FreeCodeCamp",
+      "url": "https://www.freecodecamp.org/certification/Emmanuel-Rivera/foundational-c-sharp-with-microsoft"
+    },
+    {
+      "name": "Scrum Foundation Professional Certification (SFPC)",
+      "date": "2023",
+      "issuer": "CertiProf",
+      "url": "https://www.credly.com/badges/c46f388b-97a4-429a-b8e8-69bd6bec9231/public_url"
+    },
+    {
+      "name": "Tecnólogo en Desarrollo de Software",
+      "date": "2025",
+      "issuer": "Instituto Tecnológico de las Américas",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7332846341993218049/"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": ["WEB"]
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": ["WEB", "UI"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": ["WEB", "Backend"]
+    },
+    {
+      "name": "React",
+      "level": "",
+      "keywords": ["WEB"]
+    },
+    {
+      "name": "Nexj.js",
+      "level": "",
+      "keywords": ["WEB", "Backend"]
+    },
+    {
+      "name": "Astro",
+      "level": "",
+      "keywords": ["WEB"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "",
+      "keywords": ["UI"]
+    },
+    {
+      "name": "ASP.NET Core",
+      "level": "",
+      "keywords": ["C#", "Backend"]
+    },
+    {
+      "name": "Entity Framework Core",
+      "level": "",
+      "keywords": ["Backend"]
+    },
+    {
+      "name": "API Restful",
+      "level": "",
+      "keywords": ["C#", ".NET Framework", "Backend"]
+    },
+    {
+      "name": "Postman",
+      "level": "",
+      "keywords": ["QA", "Test"]
+    },
+    {
+      "name": "Swagger",
+      "level": "",
+      "keywords": ["QA", "Test"]
+    },
+    {
+      "name": "SQL Server",
+      "level": "",
+      "keywords": ["Databases"]
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": ["Databases"]
+    },
+    {
+      "name": "Oracle",
+      "level": "",
+      "keywords": ["Databases"]
+    },
+    {
+      "name": "SSAS/SSIS",
+      "level": "",
+      "keywords": ["Integration Services", "Analisys Services"]
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": ["Control de versiones"]
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": ["Control de versiones"]
+    },
+    {
+      "name": "Docker",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Azure",
+      "level": "",
+      "keywords": ["Scrum", "Canvas"]
+    },
+    {
+      "name": "Pega platform",
+      "level": "",
+      "keywords": ["IT"]
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "E-commerce",
+      "isActive": false,
+      "description": "Simple pero poderosa. Desarrollo de una aplicación web para gestión de productos y usuarios utilizando .NET Core y Next.js.",
+      "highlights": [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        ".NET CORE",
+        "JWT",
+        "Swagger",
+        "SQL Server"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Tesla Landing",
+      "isActive": false,
+      "description": "Desarrollo de una copia de la popular compañia Tesla. Está creada con: Astro, Tailwind y JS, sencillas pero poderosas herramientas. Posee navegación interactiva, efectos visuales dinámicos y componentes reutilizables.",
+      "highlights": ["Astro", "Tailwind", "JS"],
+      "url": ""
+    },
+    {
+      "name": "Spotify Clone",
+      "isActive": false,
+      "description": "Podemos ver un reproductor de música en la web orientado hacer rápido, flexible, de utilidad para escuchar playlsit y una muestra del poder multiparadigma de astro.",
+      "highlights": ["Astro", "React", "Tailwind"],
+      "url": "#"
+    }
+  ]
+}

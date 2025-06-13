@@ -1,0 +1,137 @@
+---
+import Section from "../Section.astro";
+
+import { skills } from "@cv";
+import HtmlIcon from "@/icons/HtmlIcon.astro";
+import csharp from "@/icons/csharp.astro";
+import azure from "@/icons/azure.astro";
+import docker from "@/icons/docker.astro";
+import swagger from "@/icons/swagger.astro";
+import postman from "@/icons/postman.astro";
+import sqlserver from "@/icons/sqlserver.astro";
+import IconAstro from "@/icons/IconAstro.astro";
+import Css from "@/icons/css.astro";
+import Javascript from "@/icons/javascript.astro";
+import React from "@/icons/react.astro";
+import Next from "@/icons/next.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Sql from "@/icons/sql.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+
+const PROGRAMING_ICONS: Record<string, any> = {
+  HTML: HtmlIcon,
+  CSS: Css,
+  JavaScript: Javascript,
+  React: React,
+  Next: Next,
+  Astro: IconAstro,
+  Tailwind: Tailwind,
+  "SQL Server": sqlserver,
+  MySQL: Sql,
+  SQLServer: Sql,
+  Git: Git,
+  GitHub: GitHub,
+  Docker: docker,
+  Azure: azure,
+  Postman: postman,
+  Swagger: swagger,
+  "ASP.NET Core": csharp,
+  "Nexj.js": Next,
+};
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const Icon = PROGRAMING_ICONS[name];
+
+        if (Icon) {
+          return (
+            <li class="has-icon">
+              <span class="element-2">{name}</span>
+              <span class="element-1">
+                <Icon />
+              </span>
+            </li>
+          );
+        }
+
+        return (
+          <li>
+            <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
+  <script src="src/components/script/hover-random.js"></script>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #111;
+    min-width: 90px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* SOLO aplica a los que tienen icono */
+  li.has-icon .element-1,
+  li.has-icon .element-2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    transition:
+      opacity 0.3s ease,
+      transform 0.3s ease;
+  }
+
+  li.has-icon .element-1 {
+    opacity: 1;
+  }
+
+  li.has-icon .element-2 {
+    opacity: 0;
+  }
+
+  li.has-icon:hover .element-1 {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  li.has-icon:hover .element-2 {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+
+  li.has-icon.active-hover .element-1 {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  li.has-icon.active-hover .element-2 {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+</style>

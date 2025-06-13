@@ -1,0 +1,34 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import About from "@/components/sections/About.astro";
+import Education from "@/components/sections/Education.astro";
+import Skills from "@/components/sections/Skills.astro";
+import Hero from "@/components/sections/Hero.astro";
+import Project from "@/components/sections/Project.astro";
+import Experience from "@/components/sections/Experience.astro";
+import KeyboardManager from "@/components/KeyboardManager.astro";
+import Certifications from "@/components/sections/certifications.astro";
+---
+
+<Layout>
+  <main>
+    <div>
+      <Hero />
+      <About />
+      <Experience />
+      <Education />
+      <Certifications />
+      <Project />
+      <Skills />
+    </div>
+  </main>
+  <KeyboardManager />
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+</style>
