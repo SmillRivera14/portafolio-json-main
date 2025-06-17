@@ -1,17 +1,18 @@
 ---
 import Section from "../Section.astro";
-import {work} from "@cv"
+import { work } from "@cv";
+import "../sections/styles/theme.css";
 ---
 
 <Section title="Experiencia">
   <ul>
     {
       work.map(
-        ({name, startDate, endDate, position, summary, highlights, url}) =>
-        {
-          const startYear = new Date(startDate).getFullYear()
-          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          return(
+        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual";
+          return (
             <li>
               <article>
                 <header>
@@ -23,35 +24,21 @@ import {work} from "@cv"
                     </h3>
                     <h4>{position}</h4>
                   </div>
-                  <div>
-                    <time
-                      datetime={startDate}
-                      date-title={startDate}>
-                      {startYear}
-                    </time>
-                    {" - "}
-                    <time
-                      datetime={endDate}
-                      date-title={endDate}>
-                      {endYear}
-                    </time>
-                  </div>
                 </header>
-
                 <footer>
                   <p>{summary}</p>
                 </footer>
               </article>
             </li>
-          )
+          );
         }
       )
     }
   </ul>
-</section>
+</Section>
 
 <style>
-   ul {
+  ul {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -59,11 +46,11 @@ import {work} from "@cv"
 
   article h3 {
     font-weight: 500;
-    color: #111;
+    color: var(--color-text-primary);
   }
 
   article a {
-    color: #111;
+    color: var(--color-text-primary);
   }
 
   article a:hover {
@@ -71,7 +58,7 @@ import {work} from "@cv"
   }
 
   article h4 {
-    color: #222;
+    color: var(--color-text-secondary);
     font-weight: 400;
   }
 
@@ -83,7 +70,7 @@ import {work} from "@cv"
   }
 
   time {
-    color: #555;
+    color: var(--color-text-muted);
     font-size: 0.85rem;
     min-width: 102px;
     cursor: default;
@@ -97,18 +84,23 @@ import {work} from "@cv"
 
   [data-title]:after {
     content: attr(data-title);
-    background-color: #333;
-    color: #fff;
-    font-size: .75rem;
-    font-family: Menlo, Monaco, Lucida Console, "Courier New", monospace;;
+    background-color: var(--color-tooltip-bg);
+    color: var(--color-tooltip-fg);
+    font-size: 0.75rem;
+    font-family:
+      Menlo,
+      Monaco,
+      Lucida Console,
+      "Courier New",
+      monospace;
     position: absolute;
-    padding: .2rem .5rem;
+    padding: 0.2rem 0.5rem;
     bottom: -1.4rem;
     left: 50%;
     white-space: nowrap;
-    box-shadow: 1px 1px 1px #222222;
+    box-shadow: 1px 1px 1px var(--color-tooltip-shadow);
     opacity: 0;
-    border: 1px solid #111111;
+    border: 1px solid var(--color-tooltip-border);
     z-index: 99999;
     visibility: hidden;
     border-radius: 6px;

@@ -1,6 +1,7 @@
 ---
 import Section from "../Section.astro";
 import { projects } from "@cv";
+import "../sections/styles/theme.css";
 ---
 
 <Section title="Proyectos">
@@ -46,12 +47,13 @@ import { projects } from "@cv";
 
   .project-card {
     border-radius: 8px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid var(--project-border-color);
     gap: 16px;
     display: flex;
     flex-direction: column;
     padding: 16px;
     height: 100%;
+    color: var(--color-text-primary);
   }
 
   .project-card header {
@@ -60,10 +62,6 @@ import { projects } from "@cv";
 
   .project-card h3 {
     margin-bottom: 4px;
-  }
-
-  .project-card {
-    color: #111;
   }
 
   .project-card:hover h3 {
@@ -81,7 +79,7 @@ import { projects } from "@cv";
   }
 
   .project-card h3 span {
-    color: rgb(0, 188, 47);
+    color: var(--project-accent-color);
     animation-name: flicker;
     animation-duration: 3s;
     animation-timing-function: ease-in;
@@ -97,8 +95,8 @@ import { projects } from "@cv";
 
   footer span {
     border-radius: 6px;
-    background: #eee;
-    color: #444;
+    background: var(--project-tag-bg);
+    color: var(--project-tag-text);
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
@@ -136,7 +134,7 @@ import { projects } from "@cv";
 
     .project-card {
       border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
+      box-shadow: 0 1px 1px var(--project-shadow-mobile);
       padding: 0 0 16px 0;
     }
   }

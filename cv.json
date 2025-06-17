@@ -30,7 +30,7 @@
   "work": [
     {
       "name": "Banco Múltiple BHD",
-      "position": "Pasante",
+      "position": "",
       "url": "https://www.linkedin.com/in/smill-rivera-diaz/overlay/1735423405903/single-media-viewer/?profileId=ACoAAD0aWdsBOtMgGNKB80BjeX_1ohIil5wSDF4",
       "startDate": "2024-09",
       "endDate": "2024-12",
@@ -200,7 +200,7 @@
     },
     {
       "name": "Tesla Landing",
-      "isActive": false,
+      "isActive": true,
       "description": "Desarrollo de una copia de la popular compañia Tesla. Está creada con: Astro, Tailwind y JS, sencillas pero poderosas herramientas. Posee navegación interactiva, efectos visuales dinámicos y componentes reutilizables.",
       "highlights": ["Astro", "Tailwind", "JS"],
       "url": "https://github.com/SmillRivera14/tesla-landing"
@@ -214,7 +214,7 @@
     },
     {
       "name": "E-commerce",
-      "isActive": true,
+      "isActive": false,
       "description": "Simple pero poderosa. Desarrollo de una aplicación web para gestión de productos y usuarios utilizando .NET Core y React",
       "highlights": [
         "React",

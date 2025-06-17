@@ -1,5 +1,6 @@
 ---
 import { basics } from "@cv";
+import "../sections/styles/theme.css";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
@@ -100,10 +101,11 @@ const printInfo = [email, phone, linkeUrl].filter(Boolean).join(" • ");
 
   h1 {
     font-size: 2rem;
+    color: var(--hero-heading-color);
   }
 
   h2 {
-    color: #444;
+    color: var(--hero-subheading-color);
     font-weight: 500;
     font-size: 1.1rem;
     text-wrap: balance;
@@ -117,15 +119,16 @@ const printInfo = [email, phone, linkeUrl].filter(Boolean).join(" • ");
   }
 
   span {
-    color: #666;
+    color: var(--hero-span-color);
     display: flex;
     align-items: center;
     gap: 0.25rem;
     font-size: 0.85rem;
     letter-spacing: -0.05rem;
   }
+
   footer {
-    color: #555;
+    color: var(--hero-footer-color);
     font-size: 0.65rem;
     display: flex;
     gap: 4px;
@@ -133,11 +136,11 @@ const printInfo = [email, phone, linkeUrl].filter(Boolean).join(" • ");
   }
 
   footer a {
-    color: #777;
+    color: var(--hero-footer-link-color);
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #eee;
+    border: 1px solid var(--hero-footer-border-color);
     padding: 4px;
     height: 32px;
     width: 32px;
@@ -146,8 +149,8 @@ const printInfo = [email, phone, linkeUrl].filter(Boolean).join(" • ");
   }
 
   footer a:hover {
-    background: #eee;
-    border: 1px solid #ddd;
+    background: var(--hero-footer-bg-hover);
+    border: 1px solid var(--hero-footer-border-hover);
   }
 
   @media (width <= 700px) {
@@ -166,14 +169,11 @@ const printInfo = [email, phone, linkeUrl].filter(Boolean).join(" • ");
       display: flex;
       justify-content: center;
       align-items: center;
+      margin: 0 auto;
     }
 
     h2 {
       text-wrap: balance;
-    }
-
-    figure {
-      margin: 0 auto;
     }
   }
 </style>

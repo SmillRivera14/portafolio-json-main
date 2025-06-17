@@ -1,48 +1,45 @@
 ---
 import Section from "../Section.astro";
-import {certificates} from "@cv"
-
+import { certificates } from "@cv";
+import "../sections/styles/theme.css";
 ---
 
 <Section title="Certificados">
-<ul>
+  <ul>
     {
-      certificates.map(
-        ({name, date, issuer, url}) =>
-        {
-          return(
-            <li>
-              <article>
-                <header>
-                    <h3>
-                      <a href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
-                      </a>
-                    </h3>
-                </header>
-              </article>
-            </li>
-          )
-        }
-      )
+      certificates.map(({ name, date, issuer, url }) => {
+        return (
+          <li>
+            <article>
+              <header>
+                <h3>
+                  <a href={url} title={`Ver ${name}`} target="_blank">
+                    {name}
+                  </a>
+                </h3>
+              </header>
+            </article>
+          </li>
+        );
+      })
     }
   </ul>
-</section>
+</Section>
 
 <style>
-   ul {
+  ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: var(--spacing-small);
   }
 
   article h3 {
     font-weight: 500;
-    color: #111;
+    color: var(--color-text-primary);
   }
 
   article a {
-    color: #111;
+    color: var(--color-text-primary);
   }
 
   article a:hover {
@@ -53,7 +50,7 @@ import {certificates} from "@cv"
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: var(--spacing-xsmall);
   }
 
   @media (width <= 700px) {

@@ -1,3 +1,7 @@
+---
+import "../components/sections/styles/theme.css";
+---
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,11 +12,33 @@
     <title>Portafolio de Smill Rivera</title>
   </head>
   <body>
+    <button id="theme-toggle" title="Alternar modo oscuro/claro">🌓</button>
     <slot />
   </body>
+  <script src="src/components/script/thema.js"></script>
 </html>
 
 <style is:global>
+  #theme-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    background: transparent;
+    border: 1px solid var(--hero-footer-border-color);
+    color: var(--hero-footer-link-color);
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  #theme-toggle:hover {
+    background: var(--hero-footer-bg-hover);
+    border-color: var(--hero-footer-border-hover);
+  }
+
   html {
     font-family:
       Menlo,
@@ -21,7 +47,7 @@
       "Courier New",
       Courier,
       monospace;
-    background: #fff;
+    background: var(--color-bg);
     letter-spacing: -0.025rem;
   }
 
@@ -66,8 +92,12 @@
       sans-serif;
   }
 
+  h2 {
+    color: var(--project-text-color);
+  }
+
   p {
-    color: #666;
+    color: var(--color-muted);
     font-size: 0.9rem;
     line-height: 1.5;
     margin: 0;

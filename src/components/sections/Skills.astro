@@ -1,6 +1,6 @@
 ---
 import Section from "../Section.astro";
-
+import "../sections/styles/theme.css";
 import { skills } from "@cv";
 import HtmlIcon from "@/icons/HtmlIcon.astro";
 import csharp from "@/icons/csharp.astro";
@@ -82,12 +82,12 @@ const PROGRAMING_ICONS: Record<string, any> = {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #f3f4f6;
+    background: var(--color-bg-skills);
     border-radius: 6px;
     padding: 0.4rem 0.8rem;
     font-size: 0.85rem;
     font-weight: 500;
-    color: #111;
+    color: var(--color-text);
     min-width: 90px;
     height: 40px;
     position: relative;

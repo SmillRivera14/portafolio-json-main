@@ -1,0 +1,98 @@
+:root {
+
+  /* ======== Base ======== */
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-muted: #666666;
+
+  /* ======== Skills Section ======== */
+  --color-bg-skills: #f3f4f6;
+
+  /* ======== Hero Section ======== */
+  --hero-heading-color: #000000;
+  --hero-subheading-color: #444444;
+  --hero-span-color: #666666;
+  --hero-footer-color: #555555;
+  --hero-footer-link-color: #777777;
+  --hero-footer-border-color: #eeeeee;
+  --hero-footer-border-hover: #dddddd;
+  --hero-footer-bg-hover: #eeeeee;
+
+  /* ======== Project Section ======== */
+  --project-border-color: #f2f2f2;
+  --project-text-color: #111111;
+  --project-accent-color: #00bc2f;
+  --project-tag-bg: #eeeeee;
+  --project-tag-text: #444444;
+  --project-shadow-mobile: #f2f2f2;
+
+  /* ======== Experience & Education ======== */
+  --color-text-primary: #111111;
+  --color-text-secondary: #222222;
+  --color-text-muted: #555555;
+
+  /* ======== Tooltips ======== */
+  --color-tooltip-bg: #333333;
+  --color-tooltip-border: #111111;
+  --color-tooltip-shadow: #222222;
+
+  /* ======== Utility Spacing ======== */
+  --spacing-small: 10px;
+  --spacing-xsmall: 4px;
+
+  /* ======== KeyboardManager ======== */
+  --color-bg-light: #ffffff;
+  --color-bg-footer: #fdfdfd;
+  --color-border: #eeeeee;
+  --color-text: #111111;
+  --color-kbd-bg: #eeeeee;
+}
+
+:root.dark {
+  /* ======== Base ======== */
+  --color-bg: #111111;
+  --color-text: #f5f5f5;
+  --color-muted: #aaaaaa;
+
+  /* ======== Skills Section ======== */
+  --color-bg-skills: #232325;
+
+  /* ======== Hero Section ======== */
+  --hero-heading-color: #ffffff;
+  --hero-subheading-color: #cccccc;
+  --hero-span-color: #aaaaaa;
+  --hero-footer-color: #999999;
+  --hero-footer-link-color: #dddddd;
+  --hero-footer-border-color: #444444;
+  --hero-footer-border-hover: #555555;
+  --hero-footer-bg-hover: #333333;
+
+  /* ======== Project Section ======== */
+  --project-border-color: #333333;
+  --project-text-color: #f1f1f1;
+  --project-accent-color: #00ff5e;
+  --project-tag-bg: #282828;
+  --project-tag-text: #cccccc;
+  --project-shadow-mobile: #222222;
+
+  /* ======== Experience & Education ======== */
+  --color-text-primary: #f1f1f1;
+  --color-text-secondary: #cccccc;
+  --color-text-muted: #aaaaaa;
+
+  /* ======== Tooltips ======== */
+  --color-tooltip-bg: #eeeeee;
+  --color-tooltip-border: #999999;
+  --color-tooltip-shadow: #000000;
+
+  /* ======== Utility Spacing ======== */
+  --spacing-small: 10px;
+  --spacing-xsmall: 4px;
+
+  /* ======== KeyboardManager ======== */
+  --color-bg-light: #111111;
+  --color-bg-footer: #1a1a1a;
+  --color-border: #444444;
+  --color-text: #f0f0f0;
+  --color-kbd-bg: #333333;
+}
