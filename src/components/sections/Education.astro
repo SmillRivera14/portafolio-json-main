@@ -27,7 +27,7 @@ import "../sections/styles/theme.css";
                   <time datetime={startDate} date-title={startDate}>
                     {startYear}
                   </time>
-                  {" - "}
+                  <span class="date-separator">{" - "}</span>
                   <time datetime={endDate} date-title={endDate}>
                     {endYear}
                   </time>
@@ -66,6 +66,10 @@ import "../sections/styles/theme.css";
     font-weight: 400;
   }
 
+  .date-separator {
+    color: var(--color-text-muted);
+  }
+
   header {
     display: flex;
     justify-content: space-between;
@@ -80,16 +84,16 @@ import "../sections/styles/theme.css";
     cursor: default;
   }
 
-  [data-title]:hover:after {
+  [date-title]:hover:after {
     opacity: 1;
     transition: all 0.1s ease-in-out 0.5s;
     visibility: visible;
   }
 
-  [data-title]:after {
-    content: attr(data-title);
+  [date-title]:after {
+    content: attr(date-title);
     background-color: var(--color-bg);
-    color: var(--color-bg);
+    color: var(--color-text-secondary);
     font-size: 0.75rem;
     font-family:
       Menlo,
@@ -100,7 +104,7 @@ import "../sections/styles/theme.css";
     position: absolute;
     padding: 0.2rem 0.5rem;
     bottom: -1.4rem;
-    left: 50%;
+    left: 10%;
     white-space: nowrap;
     box-shadow: 1px 1px 1px var(--color-tooltip-shadow);
     opacity: 0;
@@ -110,7 +114,7 @@ import "../sections/styles/theme.css";
     border-radius: 6px;
   }
 
-  [data-title] {
+  [date-title] {
     position: relative;
   }
 
