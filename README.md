@@ -6,6 +6,8 @@ Durante mi formación y proyectos personales, he trabajado con tecnologías mode
 
 Me enfoco en mejorar mis habilidades en desarrollo web y backend, combinando lo aprendido en mis estudios técnicos con la práctica constante en proyectos reales y disfruto construyendo soluciones como este portafolio donde organizo mi trabajo de forma clara, dinámica y profesional.
 
+### [🌐 Visitar](https://smill-rivera-ten.vercel.app/)
+
 # Portafolio JSON
 
 Este es un portafolio personal desarrollado con [Astro](https://astro.build/), que consume datos desde archivos `.json` para generar contenido dinámico de manera sencilla y eficiente.
